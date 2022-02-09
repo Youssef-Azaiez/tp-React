@@ -1,0 +1,20 @@
+Nav Bar (+search bar) = Youssef
+Product Card (elproduitbutton) = Benjamin
+Contenu page Accueil (Pub+Txt) = Youssef
+Contenu page Panier (+MonPanier
+  -ImgP
+  -QuantitéP
+  -PrixP
+ +BoutonMP
+ +BoutonSP
+ +AjouterCp 
+ +BoutonPayer
+ +ConsulterSC) = Benjamin
+Contenu page produit = Mohamed
+Contenu page Account (info user + liste des commandes + details commande) = Alex
+Contenu page login = Mohamed
+Contenu page vendeur = Benjamin
+
+Contenu page dashboard-pro = facultatif
+
+

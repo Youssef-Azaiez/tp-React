@@ -1,0 +1,98 @@
+
+
+PageAccueilI
+ +NavBar
+  -LogoSite
+  -Accueil
+  -Cnx
+   *FormulaireIns
+    -Form
+    -CGU & CGV
+    -boutonIns	
+   *FormulaireCnx
+    -Form
+    -BoutonCnx
+  -Panier
+ +SearchBar
+ +PuB:Img
+ +Txt
+ +ELProduit
+  -ImageP
+  -NomP
+  -PrixP
+  -VendeurP
+  -BoutonApanier
+ 
+PageAccueilCl (spécialisation de la page d'accueil Internaute):
+ +NavBar
+  -LogoSite
+  -Accueil
+  -NomC
+   *BoutonProfil
+   *BoutonDEC
+  -Panier
+ +SearchBar
+ +PuB:Img
+ +Txt
+ +BoutonELProduit
+  -ImageP
+  -NomP
+  -PrixP
+  -VendeurP
+  -BoutonApanier
+    *ConsulterP
+     -ImgP
+     -NomP
+     -DescP
+     -BoutonNomV
+      *ConsulterV
+       -LogoV
+       -NomV
+       -DescV
+       -BoutonCV
+
+PagePanier
+ +NavBar
+  -LogoSite
+  -Accueil
+  -NomC
+   *BoutonProfil
+   *BoutonDEC
+  -Panier
+ +MonPanier
+  -ImgP
+  -QuantitéP
+  -PrixP
+ +BoutonMP
+ +BoutonSP
+ +AjouterCp 
+ +BoutonPayer
+ +ConsulterSC
+
+PageProfilVendeur
+ +NavBar
+  -LogoSite
+  -Accueil
+  -NomC
+   *BoutonProfil
+   *BoutonDEC
+  -Panier
+ +LogoV
+ +NomV
+ +BoutonRA
+  *NomC
+  *BoutonRA
+ +BoutonRembourserC
+  *NomC
+  *Montant
+  *BoutonR
+ +AjouterP
+  *ImageP
+  *NomP
+  *PrixP
+  *QuantitéP
+ +GererVente
+  *NomP
+  *QuantiteVendu
+  
+
